@@ -36,13 +36,18 @@ def process(selection)
   case selection
   when "1"
     input_students
+    puts "Input Students Selected"
   when "2"
+    puts "Show Students Selected"
     show_students
   when "3"
+    puts "Save Students Selected"
     save_students
   when "4"
+    puts "Load Students Selected"
     load_students
   when "9"
+    puts "Exiting, Goodbye!"
     exit
   else
     puts "I don't know what you meant, try again"
