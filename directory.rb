@@ -102,7 +102,7 @@ def load_students#(filename = loadfilename)#load_students(filename = "students.c
     insert_to_students(name, cohort)
     #@students << {name: name, cohort: cohort.to_sym}
   end
-  file.close
+  #file.close
 end
 
 def try_load_students
